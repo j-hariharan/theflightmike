@@ -2,6 +2,9 @@ import React from 'react'
 
 export default function Header (props) {
     return (
-        <h1>HEADER</h1>
+        <div id = "header">
+            <img src = "./logo.jpg" />
+            <h1>The Flight Mike</h1>
+        </div>
     )
 }
