@@ -11,6 +11,9 @@ export default class Document extends React.Component {
     constructor (props) {
         super(props)
 
+        this.navigation = this.navigation.bind(this)
+
+
         if (props.current == "home") {
 
             this.state = { current: "loading" }
@@ -47,10 +50,14 @@ export default class Document extends React.Component {
         return (
             <div id="document">
                 <Header current = {this.state.current}/>
-                <Nav current = {this.state.current}/>
+                <Nav current = {this.state.current} onNav = {this.navigation}/>
                 <Body current = {this.state.current}/>
             </div>
         )
+    }
+
+    navigation (section) {
+        this.setState({ current: section })
     }
 
 }

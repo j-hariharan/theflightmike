@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 @import url("./stylesheets/header.css");
+@import url("./stylesheets/nav.css");
+
+
+:root {
+    --large-width: 1000px;
+    --theme-background: rgba(0, 79, 217, 0.3); /* rgba(150, 150, 255, 0.5) */
+    --theme-solid: rgb(0, 79, 217);
+}
 
 body {
     font-family: 'Roboto';
-    background-color: #f9f9f9;
+    background-color: #fff;
 }
