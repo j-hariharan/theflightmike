@@ -1,0 +1,5 @@
+#body {
+    margin-top: 450px;
+    
+    transition: var(--animation-duration);
+}

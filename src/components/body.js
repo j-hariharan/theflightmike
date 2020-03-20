@@ -2,6 +2,28 @@ import React from 'react'
 
 export default function Body (props) {
     return (
-        <p>BODY ELEMENT</p>
+        <div id = "body">
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+            <p>BODY ELEMENT</p>
+        </div>
     )
 }

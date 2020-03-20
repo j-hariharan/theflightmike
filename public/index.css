@@ -2,12 +2,14 @@
 
 @import url("./stylesheets/header.css");
 @import url("./stylesheets/nav.css");
+@import url('./stylesheets/body.css');
 
 
 :root {
     --large-width: 1000px;
     --theme-background: rgba(0, 79, 217, 0.3); /* rgba(150, 150, 255, 0.5) */
     --theme-solid: rgb(0, 79, 217);
+    --animation-duration: 0.5s;
 }
 
 body {
