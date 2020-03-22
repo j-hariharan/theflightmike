@@ -1,5 +1,11 @@
+@import url('./body/loading.css');
+@import url('./body/videos.css');
+
 #body {
     margin-top: 450px;
+    max-width: var(--large-width);
+    margin-left: auto;
+    margin-right: auto;
     
     transition: var(--animation-duration);
 }
