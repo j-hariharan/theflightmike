@@ -4,6 +4,9 @@
 @import url("./stylesheets/nav.css");
 @import url('./stylesheets/body.css');
 
+@import url('./stylesheets/body/loading.css');
+@import url('./stylesheets/body/videos.css');
+
 
 :root {
     --large-width: 1000px;

@@ -1,6 +1,3 @@
-@import url('./body/loading.css');
-@import url('./body/videos.css');
-
 #body {
     margin-top: 450px;
     max-width: var(--large-width);
