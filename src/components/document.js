@@ -50,7 +50,7 @@ export default class Document extends React.Component {
 async function getVideos () {
 
     let channels = ['UUQo7Kkt6UOnPP114Xwi5Qeg', 'UU1gkLFIojYo1TGhZM84rZeQ', 'UUeX1ggp3t62DjtPHNvCReeQ']
-    let links = channels.map(id => `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=25&playlistId=${id}&key=AIzaSyDTxjLFQrNFwLWCTvoVMtafwkp9Hr1_QBs`)
+    let links = channels.map(id => `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=25&playlistId=${id}&key=AIzaSyDBrw3iTtCGBSWcdNadg5miO-KMUb-AkoA`)
     let res = await Promise.all(links.map(l => fetch(l)))
     let [data1, data2, data3] = await Promise.all(res.map(r => r.json()))
     
