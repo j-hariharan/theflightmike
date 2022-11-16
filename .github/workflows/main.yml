@@ -19,7 +19,7 @@ jobs:
         node-version: '16.16.0'
 
     - run: npm install
-    - run: node node_modules/react-scripts/scripts/build.js
+    - run: npm run build
     - uses: w9jds/firebase-action@master
       with:
         args: deploy --only hosting
